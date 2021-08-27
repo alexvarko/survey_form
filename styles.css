@@ -9,8 +9,8 @@ body {
 }
 
 * {
-    * box-sizing: border-box;
-    * }
+     box-sizing: border-box;
+     }
 
 #title {
     font-size: 45px;
