@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="./styles.css" rel="stylesheet">
+        <meta charset="UTF-8" />
+    </head>
+    <body class="bg-gray-100">
+        <h1 class="text-indigo-700"id="title">Survey form</h1>
+        <p id="description">This form is created to know some information about you.</p>
+    </body>
+    <form id="survey-form" action="post">
+        <div>
+            <label for="name" id="name-label">Name:</label><br>
+            <input type="text" id="name" placeholder="Name">
+        </div>
+        <div>
+            <label for="email" id="email-label">Email:</label><br>
+            <input type="email" id="email" placeholder="Email">
+        </div>
+        <div>
+            <label for="number" id="number-label">Age:</label><br>
+            <input type="number" id="number" min="1" max="99" placeholder="Age">
+        </div>
+        <div>
+            <label for="dropdown" id="dropdown-label">Gender</label><br>
+            <select id="dropdown">
+                <option disabled selected value>Choose gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <div id="radio">
+            <label id="language-label">Your main language:</label><br>
+            <input type="radio" id="radio1" name="lang" value="ukrainian">
+            <label for="radio1">Ukrainian</label><br>
+            <input type="radio" id="radio2" name="lang" value="english">
+            <label for="radio2">English</label><br>
+            <input type="radio" id="radio3" name="lang" value="other">
+            <label for="radio3">Other</label><br>
+        </div>
+        <div id="checkbox">
+            <label id="p-language-label">Your programming languages:</label><br>
+            <input type="checkbox" id="lang1" value="python">
+            <label for="lang1">Python</label><br>
+            <input type="checkbox" id="lang2" value="C++">
+            <label for="lang2">C++</label><br>
+            <input type="checkbox" id="lang3" value="Others">
+            <label for="lang3">Others</label><br>
+        </div>
+        <div>
+            <label id="textarea-label">Write down some additional information:</label><br>
+            <textarea id="textarea" cols=40 rows=5 placeholder="Additional comments"></textarea>
+        </div>
+        <button type="submit" id="submit" class="bg-blue-500 text-white">Submit</button>
+<form>
+
+
+
+
+
+
+
+
+
+
+</html>
